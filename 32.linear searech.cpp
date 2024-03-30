@@ -2,7 +2,6 @@
 int linearSearch(int* arr, int size, int key)
 {
 	for (int i = 0; i < size; i++) {
-		// checking condition
 		if (arr[i] == key) {
 			return i;
 		}
